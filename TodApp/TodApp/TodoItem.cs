@@ -8,5 +8,9 @@ namespace TodApp
 {
     public class TodoItem
     {
+        private int Id { get; set; }
+        private string Name { get; set; }
+        private string Status { get; set; }
+        private string DeadlineDate { get; set; }
     }
 }
